@@ -160,7 +160,7 @@ function last(){
         switch(n){
             case 0: 
                 document.getElementById("end").innerHTML= "Sadly you didn't get any of them right but good effort";
-                document.getElementById("end").style.fontSize="200%";
+                document.getElementById("end").style.fontSize="100%";
                 break;
 
             case 1: 
