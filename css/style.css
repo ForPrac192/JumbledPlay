@@ -2,7 +2,7 @@ body{
     background-image: url("../image/bg7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+   
 }
 
 /* #first{
@@ -14,16 +14,19 @@ body{
     font-size: 8rem;
     margin-left: 650px;
     margin-top: 100px;
+    
 }
 
 #intro{
     margin-left: 580px;
     font-size: 2rem;
+    
 }
 
 #intro2{
     margin-left: 650px;
     font-size: 2rem;
+    
 }
 
 
@@ -37,6 +40,7 @@ body{
     color: black;
     margin-left: 750px;
     margin-top: 1em;
+    
     
 }
 
@@ -166,34 +170,34 @@ body{
     margin-left: 500px;
 }
 
-@media screen and (max-width:700px){
+ @media screen and (max-width:700px){
     #hi{
-        font-size: 3rem;
-        margin-left: 160px;
-        margin-top: 50px;
+        font-size: 6rem;
+        margin-left: 120px;
+        margin-top: 150px;
     }
 
     #intro{
-        margin-left: 80px;
-        font-size: 1.1rem;
+        margin-left: 50px;
+        font-size: 1.5rem;
     }
     
     #intro2{
-        margin-left: 130px;
-        font-size: 1.1rem;
+        margin-left: 120px;
+        font-size: 1.5rem;
+        margin-top: 30px;
     }
     
-    
-    
     #but1{
-        width: 20%;
-        height: 2em;
+        width: 23%;
+        height: 3em;
         background-color: lightblue;
         cursor: pointer;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         color: black;
         margin-left: 180px;
         margin-top: 1em;
+        margin-bottom: 221.5px;
         
     }
     
@@ -293,7 +297,7 @@ body{
         margin-top: 90px;
         margin-left: 80px;
     }
-}
+} 
 
 
 
