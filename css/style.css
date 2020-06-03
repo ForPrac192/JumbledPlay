@@ -1,14 +1,18 @@
-body{
-    background-image: url("../image/bg7.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
 
 /* #first{
     background-color: lightgreen;
-     border: solid 15px rgb(28, 62, 211); 
+    
 } */
+
+body{
+    background-image: url("../image/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    
+}
 
 #hi{
     font-size: 8rem;
@@ -29,8 +33,6 @@ body{
     
 }
 
-
-
 #but1{
     width: 10%;
     height: 3em;
@@ -38,7 +40,7 @@ body{
     cursor: pointer;
     font-size: 2rem;
     color: black;
-    margin-left: 750px;
+    margin-left: 760px;
     margin-top: 1em;
     
     
