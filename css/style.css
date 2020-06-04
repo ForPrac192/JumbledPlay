@@ -1,18 +1,11 @@
 
-/* #first{
-    background-color: lightgreen;
-    
-} */
-
-body{
-    background-image: url("../image/bg3.jpg");
+ body{
+    background-image: url("../image/bg7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    font-family: sans-serif;
-    
-}
+      
+} 
+
 
 #hi{
     font-size: 8rem;
@@ -24,7 +17,6 @@ body{
 #intro{
     margin-left: 580px;
     font-size: 2rem;
-    
 }
 
 #intro2{
@@ -172,7 +164,140 @@ body{
     margin-left: 500px;
 }
 
- @media screen and (max-width:700px){
+
+@media screen and (max-width:500px) {
+
+    #hi{
+        font-size: 4rem;
+        margin-left: 40px;
+        margin-top: 150px;
+        
+    }
+
+    #intro{
+        margin-left: 0px;
+        font-size: 1.3rem;
+    }
+    
+    #intro2{
+        margin-left: 30px;
+        font-size: 1.3rem;
+        margin-top: 50px;
+    }
+    
+    #but1{
+        width: 23%;
+        height: 3.2em;
+        background-color: lightblue;
+        cursor: pointer;
+        font-size: 1.3rem;
+        color: black;
+        margin-left: 80px;
+        margin-top: 1.5em;
+        margin-bottom: 226px;
+        
+    }
+    
+    #intro3{
+        margin-left: 10px;
+        font-size: 1.3rem;
+        display:none;
+    }
+    
+    .rules{
+        margin-left: 50px;
+        
+    }
+    
+    #rules{
+        margin-top: 50px;
+        font-size: 1rem;
+    }
+    
+    .list{
+        margin-top: 50px;
+        font-size: 1.1rem;
+    }
+    
+    #dis{
+        display: none;
+        margin-left: 10px;
+    }
+    
+    #dis2{
+        display: none;
+        margin-left: 10px;
+    }
+    
+    #but2{
+        width: 25%;
+        height: 2em;
+        background-color: lightblue;
+        cursor: pointer;
+        font-size: 1.3rem;
+        color: black;
+        margin-left: 100px;
+        margin-top: 4px;
+        
+    
+    }
+    
+    #ff{
+        margin-left: 10px;
+        margin-top: 25px;
+        font-size: 1.5rem;
+    }
+
+    #container2{
+        display: none;
+        margin-left: 5px;
+        margin-top: 45px;
+        font-size: 0.7rem;
+    }
+    
+    #inp{
+        margin-left: 10px;
+        height: 0.9em;
+        width:70%;
+        font-size: 1.3rem;
+    }
+    
+    #but3{
+        width: 10%;
+        height: 2.5em;
+        background-color: lightblue;
+        cursor: pointer;
+        font-size: 0.7rem;
+        color: black;
+        margin-left: 330px;
+        position: absolute;
+        top: 150px;
+           
+    }
+    
+    #over{
+        margin-left: 300px;
+        display: none;
+        position: absolute;
+        top: 140px;
+        font-size: 1.1rem;
+    }
+     
+    #end2{
+        font-size: 1.3rem;
+        margin-top: 2em;
+        margin-left: 60px;
+    }
+    
+    #end{
+        font-size: 1rem;
+        margin-top: 90px;
+        margin-left: 80px;
+    }
+}  
+
+
+  @media screen and (min-width:501px) and (max-width:700px){
     #hi{
         font-size: 6rem;
         margin-left: 120px;
@@ -299,7 +424,7 @@ body{
         margin-top: 90px;
         margin-left: 80px;
     }
-} 
+}  
 
 
 
