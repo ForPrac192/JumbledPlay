@@ -1,6 +1,6 @@
 
  body{
-    background-image: url("../image/bg7.jpg");
+    background-image: url("../image/bg3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
       
@@ -34,8 +34,19 @@
     color: black;
     margin-left: 760px;
     margin-top: 1em;
-    
-    
+     
+}
+
+#but1:hover {
+    background-color: lightgreen;
+}
+
+#but2:hover {
+    background-color: lightgreen;
+}
+
+#but3:hover {
+    background-color: lightgreen;
 }
 
 #intro3{
@@ -124,6 +135,7 @@
     display: none;
     position: absolute;
     top: 340px;
+    color: red;
 }
 
 /* #side{
@@ -259,24 +271,29 @@
         margin-top: 30px;
         font-size: 1.7rem;
     }
+
+    .same{
+        font-size: 1.2rem;
+        margin-top: 40px;
+    }
     
     #inp{
         margin-left: 10px;
         height: 1.4em;
-        width:80%;
+        width:50%;
         font-size: 1rem;
     }
     
     #but3{
-        width: 10%;
+        width: 12%;
         height: 2.5em;
         background-color: lightblue;
         cursor: pointer;
         font-size: 0.7rem;
         color: black;
-        margin-left: 330px;
+        margin-left: 280px;
         position: absolute;
-        top: 280px;
+        top: 180px;
            
     }
     
@@ -284,20 +301,20 @@
         margin-left: 300px;
         display: none;
         position: absolute;
-        top: 140px;
+        top: 180px;
         font-size: 1.1rem;
     }
      
     #end2{
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin-top: 2em;
-        margin-left: 60px;
+        margin-left: 0px;
     }
     
     #end{
         font-size: 1rem;
-        margin-top: 90px;
-        margin-left: 80px;
+        margin-top: 150px;
+        margin-left: 0px;
     }
 }  
 
@@ -464,6 +481,9 @@
         margin-top: 1em;
         
     }
+    
+    
+
     
     #intro3{
         margin-left: 10px;
